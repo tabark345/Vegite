@@ -1,6 +1,7 @@
 import  "react";
 import PrimaryButton from "../Shared/PrimaryButton";
 import bgImg from '../../assets/heroBg.png'
+import hero from "../../assets/hero.png";
 
 const bgStyle ={
   backgroundImage: `url(${bgImg})`,
@@ -27,7 +28,7 @@ const Hero = () => {
             <PrimaryButton data-aos="zoom" data-aos-delay="500" />
           </div>
           <div className="flex justify-center items-center relative z-30 order-2 sm:order-3" data-aos="fade" data-aos-delay="300">
-            <img src="/src/assets/hero.png" alt=""  className="w-full sm:scale-125 sm:translate-y-16"/>
+            <img src={hero} alt=""  className="w-full sm:scale-125 sm:translate-y-16"/>
           </div>
         </div>
       </div>
